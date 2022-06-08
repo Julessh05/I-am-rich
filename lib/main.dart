@@ -27,6 +27,7 @@ class App extends StatelessWidget {
 
       /* App Section */
       home: const Homescreen(),
+      themeMode: ThemeMode.light,
       theme: _theme,
       useInheritedMediaQuery: false,
       scrollBehavior: const MaterialScrollBehavior(),
@@ -36,7 +37,10 @@ class App extends StatelessWidget {
   /// Returns the Theme of this App
   ThemeData get _theme {
     return ThemeData(
+      useMaterial3: true,
+      brightness: Brightness.light,
       appBarTheme: const AppBarTheme(
+        color: Color.fromRGBO(255, 215, 0, 1),
         centerTitle: true,
         elevation: 15.0,
         systemOverlayStyle: SystemUiOverlayStyle(),
@@ -46,6 +50,10 @@ class App extends StatelessWidget {
             bottomRight: Radius.circular(20),
           ),
         ),
+      ),
+      listTileTheme: const ListTileThemeData(
+        style: ListTileStyle.list,
+        enableFeedback: true,
       ),
     );
   }

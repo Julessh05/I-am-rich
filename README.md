@@ -3,7 +3,7 @@
 ## About
 
 This App is just a proof, of how stupid I'm rich Apps actually are.
-There are multiple I'm rich Apps in the App Store. Most of them can't do
+There are multiple I'm rich Apps in the App Stores. Most of them can't do
 anything other than show a Message which tells you how rich the User is,
 just because he paid something like 300$ just to download this App.
 
