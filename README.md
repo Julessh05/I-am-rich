@@ -18,6 +18,13 @@ This App is available for Android, IOS, macOS, Windows and Linux.
 At the Moment it isn't available for IOS, because I don't have the possibility
 to upload it to the App Store.
 
+
+## Pricing
+
+This App is just a proof, so it is [available for free on Github](https://github.com/Jules-sh/I-am-rich).
+Still I will be releasing a priced App in the App Stores, to support my proof.
+And, it would finance this Project with just one customer ;)
+
 ## Additional Information
 
 ### Copyright
