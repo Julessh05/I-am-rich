@@ -1,19 +1,22 @@
 library iamrich;
 
-import 'package:flutter/material.dart' show BuildContext, Key, MaterialApp, MaterialScrollBehavior, runApp, StatelessWidget, Widget;
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show SystemUiOverlayStyle;
 import 'package:i_am_rich/homescreen.dart' show Homescreen;
 
+/// Main Method,
+/// runs the App
 void main() {
   runApp(const App());
 }
 
-
+/// Main Class of this App
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       /* Developer Section */
       showPerformanceOverlay: false,
       showSemanticsDebugger: false,
@@ -23,11 +26,27 @@ class App extends StatelessWidget {
       checkerboardRasterCacheImages: false,
 
       /* App Section */
-      home: Homescreen(),
+      home: const Homescreen(),
+      theme: _theme,
       useInheritedMediaQuery: false,
-      scrollBehavior: MaterialScrollBehavior(),
+      scrollBehavior: const MaterialScrollBehavior(),
     );
   }
 
-
+  /// Returns the Theme of this App
+  ThemeData get _theme {
+    return ThemeData(
+      appBarTheme: const AppBarTheme(
+        centerTitle: true,
+        elevation: 15.0,
+        systemOverlayStyle: SystemUiOverlayStyle(),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+            bottomLeft: Radius.circular(20),
+            bottomRight: Radius.circular(20),
+          ),
+        ),
+      ),
+    );
+  }
 }

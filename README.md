@@ -1,16 +1,25 @@
-# i_am_rich
+# I am rich
 
-Proof of how stupid I'm rich Apps actually are.
+## About
 
-## Getting Started
+This App is just a proof, of how stupid I'm rich Apps actually are.
+There are multiple I'm rich Apps in the App Store. Most of them can't do
+anything other than show a Message which tells you how rich the User is,
+just because he paid something like 300$ just to download this App.
 
-This project is a starting point for a Flutter application.
+## Motivation
 
-A few resources to get you started if this is your first Flutter project:
+I wanted to show how easy it is to build your own I'm rich App.
+I even built it for every big OS out there.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Availability
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This App is available for Android, IOS, macOS, Windows and Linux.
+At the Moment it isn't available for IOS, because I don't have the possibility
+to upload it to the App Store.
+
+## Additional Information
+
+### Copyright
+
+© Julian Schumacher 2022
